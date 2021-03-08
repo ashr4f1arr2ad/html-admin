@@ -152,6 +152,20 @@
         }
     }
 
+    .details_btn {
+        display: inline-block;
+        font-size: 14px;
+        color: $white-color;
+        background: #0eaed4;
+        padding: 10px 16px 8px;
+        border-radius: 5px;
+        @include transition(all, .3s);
+
+        &:hover {
+            box-shadow: 0px 7px 18px rgba(26, 188, 225, 0.44);
+        }
+    }
+
     .cart_btn {
         display: inline-block;
         font-size: 14px;

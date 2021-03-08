@@ -1,0 +1,56 @@
+/*---------------------
+  Premium Templates
+-----------------------*/
+.product-demo {
+
+  &.premium-page {
+    padding-top: 160px;
+    padding-bottom: 40px;
+
+    .demo__item {
+      margin-bottom: 80px;
+
+      .demo__item__text {
+        padding: 46px 50px 16px;
+
+        .demo__item__btn {
+
+          .cart_btn {
+            border-color: #687083;
+            color: #032044;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*---------------------
+  Cta
+-----------------------*/
+.cta {
+  background: #fbfaf9;
+  padding-top: 40px;
+  padding-bottom: 160px;
+}
+
+.cta__content {
+  padding: 85px 50px 90px;
+  border-radius: 10px;
+}
+
+.cta__text {
+  text-align: center;
+
+  h2 {
+    color: $white-color;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 42px;
+  }
+
+  .primary-btn {
+    color: $white-color;
+    border-color: $white-color;
+  }
+}

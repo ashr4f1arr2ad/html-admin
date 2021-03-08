@@ -1,0 +1,24 @@
+/*---------------------
+  Breadcrumb
+-----------------------*/
+.breadcrumb-option {
+    padding-top: 214px;
+    padding-bottom: 130px;
+}
+
+.breadcrumb__text {
+    text-align: center;
+
+    h2 {
+        color: $white-color;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: $white-color;
+        font-size: 16px;
+        line-height: 1.9;
+        margin-bottom: 0;
+    }
+}
