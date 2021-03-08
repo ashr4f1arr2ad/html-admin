@@ -9,36 +9,633 @@
     <title>Document</title>
 
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <a href="#"><img src="img/logo.png" alt=""></a>
-            </div>
-            <div class="header__right">
-                <div class="header__right__search">
-                    <form action="#">
-                        <input type="text" placeholder="Search people, page, group, #tags etc">
-                        <button type="submit"><img src="img/icons/search.png.png" alt=""></button>
-                    </form>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="/index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
                 </div>
-                <div class="header__right__auth">
-                    <a href="#">
-                        <h6>Ida Gill</h6>
-                        <img src="img/auth-pic.png" alt="">
-                    </a>
+                <div class="col-lg-9">
+                    <div class="header__nav">
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="/index.html">Home</a></li>
+                                <li><a href="/index.html">Documents</a></li>
+                                <li><a href="/index.html">Premium Templates</a></li>
+                                <li><a href="/index.html">Our Blog</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__btn">
+                            <a href="#">Subscribe</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <!-- Header Section End -->
 
+    <!-- Hero Section Begin -->
+    <section class="hero set-bg" data-setbg="img/hero/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero__text">
+                        <h2>AdminLTE Bootstrap Admin Dashboard Template</h2>
+                        <p>Best open source admin dashboard & control panel theme. Built on top of Bootstrap, AdminLTE provides a range of responsive, reusable, and commonly used components.</p>
+                        <div class="hero__btns">
+                            <a href="#">Download</a>
+                            <a href="#">Live Preview</a>
+                            <a href="#">Find On Git</a>
+                        </div>
+                    </div>
+                    <div class="hero__pic">
+                        <img src="img/hero/hero-pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Product Demo Section Begin -->
+    <section class="product-demo spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7">
+                    <div class="section-title text-center">
+                        <h2>Lat`s take a look at our premium admin dashboar template</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="demo__item">
+                        <div class="demo__item__pic">
+                            <img src="img/demo/demo-1.jpg" alt="">
+                        </div>
+                        <div class="demo__item__text">
+                            <h5><a href="#">Kero jQuery/HTML Dashboard</a></h5>
+                            <p>Bootstrap 4 Premium admin dashboard with a fresh, new design and outsanding funtionality.</p>
+                            <div class="demo__item__option">
+                                <div class="demo__item__price">
+                                    <h4>$60</h4>
+                                    <span>1.265+ Purchases</span>
+                                </div>
+                                <div class="demo__item__btn">
+                                    <a href="#" class="preview_btn">Preview</a>
+                                    <a href="#" class="cart_btn"><i class="ti-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="demo__item">
+                        <div class="demo__item__pic">
+                            <img src="img/demo/demo-2.jpg" alt="">
+                        </div>
+                        <div class="demo__item__text">
+                            <h5><a href="#">Kero jQuery/HTML Dashboard</a></h5>
+                            <p>Bootstrap 4 Premium admin dashboard with a fresh, new design and outsanding funtionality.</p>
+                            <div class="demo__item__option">
+                                <div class="demo__item__price">
+                                    <h4>$60</h4>
+                                    <span>1.265+ Purchases</span>
+                                </div>
+                                <div class="demo__item__btn">
+                                    <a href="#" class="preview_btn">Preview</a>
+                                    <a href="#" class="cart_btn"><i class="ti-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="demo__item">
+                        <div class="demo__item__pic">
+                            <img src="img/demo/demo-3.jpg" alt="">
+                        </div>
+                        <div class="demo__item__text">
+                            <h5><a href="#">Kero jQuery/HTML Dashboard</a></h5>
+                            <p>Bootstrap 4 Premium admin dashboard with a fresh, new design and outsanding funtionality.</p>
+                            <div class="demo__item__option">
+                                <div class="demo__item__price">
+                                    <h4>$60</h4>
+                                    <span>1.265+ Purchases</span>
+                                </div>
+                                <div class="demo__item__btn">
+                                    <a href="#" class="preview_btn">Preview</a>
+                                    <a href="#" class="cart_btn"><i class="ti-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="view__all">
+                        <a href="#" class="primary-btn">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Demo Section End -->
+
+    <!-- Feature Section Begin -->
+    <section class="feature spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="section-title">
+                        <h2>Our amazing features are most usfull for the users</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>HTML5 & CSS3</h4>
+                            <p>Verified HTML5 and CSS3 syntax by W3C services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Responsive Design</h4>
+                            <p>Mobile first design. Fits many resolutions, from large desktops to small mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>1000+ Icons</h4>
+                            <p>Featuring Font Awesome, Ion Icons, and Glyphicons.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>6 Skins</h4>
+                            <p>Choose a skin that matches your branding or edit the LESS variables to create your own.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Enhanced For Printing</h4>
+                            <p>Support for printing any page. The invoice page makes a perfect example.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Lightweight</h4>
+                            <p>Although AdminLTE is full of features, it was designed to be fast and lightweight.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Browser Compatibility</h4>
+                            <p>Support for most major browsers including Safari, IE9+, Chrome, FF, and Opera.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Many Plugins</h4>
+                            <p>Over 18 plugins and an aditional 3 custom made plugins just for AdminLTE.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature__item">
+                        <div class="feature__item__icon">
+                            <div class="icon">
+                                <img src="img/feature/f-9.png" alt="">
+                            </div>
+                        </div>
+                        <div class="feature__item__text">
+                            <h4>Active Community</h4>
+                            <p>Have a suggestion or an issue? Visit our Github repository to get help.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section End -->
+
+    <!-- Funfact Section Begin -->
+    <section class="funfact spad">
+        <div class="fun_users">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="users__pic">
+                            <img src="img/users/users-left.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="users__text">
+                            <div class="users__text__title">
+                                <h2>Active community of users and developers.</h2>
+                                <p>Meet the <span>fastest</span> and most <span>user-friendly</span> WordPress gallery plugin available.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="users__item">
+                                        <div class="users__item__icon">
+                                            <img src="img/users/u-1.png" alt="">
+                                        </div>
+                                        <div class="users__item__text">
+                                            <h4>70,000+</h4>
+                                            <span>Active installation</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="users__item">
+                                        <div class="users__item__icon">
+                                            <img src="img/users/u-2.png" alt="">
+                                        </div>
+                                        <div class="users__item__text">
+                                            <h4>535,051</h4>
+                                            <span>Active installation</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="users__item">
+                                        <div class="users__item__icon">
+                                            <img src="img/users/u-3.png" alt="">
+                                        </div>
+                                        <div class="users__item__text">
+                                            <h4>4.7 / 5</h4>
+                                            <span>user reviews</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="users__item">
+                                        <div class="users__item__icon">
+                                            <img src="img/users/u-4.png" alt="">
+                                        </div>
+                                        <div class="users__item__text">
+                                            <h4>93%</h4>
+                                            <span>happiness score</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="testimonial__slider owl-carousel">
+                        <div class="col-lg-4">
+                            <div class="testimonial__item">
+                                <div class="testimonial__author">
+                                    <div class="testimonial__author__pic">
+                                        <img src="img/testimonial/ta-1.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial__author__text">
+                                        <h5>Bradley Erickson</h5>
+                                        <span>UI/UX Designer</span>
+                                    </div>
+                                </div>
+                                <p>Consectetur adipisicing elit, seddosdoe eiusmod tempor incididunt utore etstes dolore magna aliqua. Ut imminim restai veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonial__item">
+                                <div class="testimonial__author">
+                                    <div class="testimonial__author__pic">
+                                        <img src="img/testimonial/ta-2.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial__author__text">
+                                        <h5>Bradley Erickson</h5>
+                                        <span>UI/UX Designer</span>
+                                    </div>
+                                </div>
+                                <p>Consectetur adipisicing elit, seddosdoe eiusmod tempor incididunt utore etstes dolore magna aliqua. Ut imminim restai veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonial__item">
+                                <div class="testimonial__author">
+                                    <div class="testimonial__author__pic">
+                                        <img src="img/testimonial/ta-3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial__author__text">
+                                        <h5>Bradley Erickson</h5>
+                                        <span>UI/UX Designer</span>
+                                    </div>
+                                </div>
+                                <p>Consectetur adipisicing elit, seddosdoe eiusmod tempor incididunt utore etstes dolore magna aliqua. Ut imminim restai veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="testimonial__item">
+                                <div class="testimonial__author">
+                                    <div class="testimonial__author__pic">
+                                        <img src="img/testimonial/ta-2.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial__author__text">
+                                        <h5>Bradley Erickson</h5>
+                                        <span>UI/UX Designer</span>
+                                    </div>
+                                </div>
+                                <p>Consectetur adipisicing elit, seddosdoe eiusmod tempor incididunt utore etstes dolore magna aliqua. Ut imminim restai veniam, quis nostrud.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Funfact Section End -->
+
+    <!-- Works Section Begin -->
+    <section class="works spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="section-title">
+                        <h2>Works geat with</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="works__content">
+                        <a href="#" class="works__item"><img src="img/works/w-1.png" alt=""></a>
+                        <a href="#" class="works__item"><img src="img/works/w-2.png" alt=""></a>
+                        <a href="#" class="works__item"><img src="img/works/w-3.png" alt=""></a>
+                        <a href="#" class="works__item"><img src="img/works/w-4.png" alt=""></a>
+                        <a href="#" class="works__item"><img src="img/works/w-5.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Works Section End -->
+
+    <!-- Support Section Begin -->
+    <section class="support">
+        <div class="container">
+            <div class="support-content set-bg" data-setbg="img/support-bg.jpg">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="support__left">
+                            <h2>Issues and support for clients</h2>
+                            <p>For AdminLTE support, please visit our Github repository and post your issue, suggestion, or contribution.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="support__right">
+                            <p>We try our best to provide support to the users of AdminLTE. Thanks to many of our users, AdminLTE has a great community support. We will try to respond to your post as soon as possible. For a faster response, please include as much information about your issue as possible.</p>
+                            <a href="#" class="primary-btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Support Section End -->
+
+    <!-- Seen On Section Begin -->
+    <div class="seenon spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <div class="section-title">
+                        <h2>As Seen On</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-1.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-2.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-3.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-4.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-5.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-6.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-7.png" alt=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="seen__item"><img src="img/seen/seen-1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seen On Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-5 text-center">
+                    <div class="section-title">
+                        <h2>Here is recent news from our blog site</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-1.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <span>09.24. 2020</span>
+                            <h5><a href="#">20 Free Bootstrap Admin Panel Templates 2019</a></h5>
+                            <div class="blog_by">By Emil Kristensen</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-2.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <span>09.24. 2020</span>
+                            <h5><a href="#">20 Free Bootstrap Admin Panel Templates 2019</a></h5>
+                            <div class="blog_by">By Emil Kristensen</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-3.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <span>09.24. 2020</span>
+                            <h5><a href="#">20 Free Bootstrap Admin Panel Templates 2019</a></h5>
+                            <div class="blog_by">By Emil Kristensen</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer__about">
+                            <div class="footer__logo">
+                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                            </div>
+                            <p>Easily add stunning galleries to your WordPress websites in just a few clicks.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer__widget footer__links">
+                            <h5>Quick Access</h5>
+                            <ul>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">In the Press</a></li>
+                                <li><a href="#">Roadmap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer__widget footer__links">
+                            <h5>Help</h5>
+                            <ul>
+                                <li><a href="#">Knowledge Base</a></li>
+                                <li><a href="#">Get Support</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Become an Affiliate</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer__widget">
+                            <h5>Popular Posts</h5>
+                            <p>Heaven fruitful doesn't over lesser in days. Appear creeping</p>
+                            <form action="#">
+                                <input type="text" placeholder="Email Address">
+                                <button type="submit"><i class="fa fa-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="footer__copyright__text">
+                            <p>Copyright © 2014-2019 AdminLTE. All rights reserved. Privacy Policy</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer__copyright__links">
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
     <!-- Js Plugins -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

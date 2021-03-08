@@ -1,0 +1,98 @@
+/*----------------------------------------*/
+  /* Template default CSS
+/*----------------------------------------*/
+
+  // Google Font load
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+  html,
+  body {
+    height: 100%;
+    font-family: $main_font;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    color: $heading_color;
+    font-family: $main_font;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 15px;
+    color: $p_color;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  input,
+  select,
+  button,
+  textarea {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  a:hover,
+  a:focus,
+  a:-webkit-any-link {
+    text-decoration: none;
+    outline: none;
+  }
+
+  ul,
+  ol {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 9;
+  }
+
+  @media (min-width: 1200px) {
+
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  section {
+    overflow: hidden;
+    position: relative;
+  }

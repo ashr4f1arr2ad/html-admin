@@ -1,0 +1,79 @@
+/*---------------------
+  Header
+-----------------------*/
+.header {
+    background: #161d31;
+    padding: 20px 0 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    .container {
+        max-width: 1600px;
+    }
+}
+
+.header__logo {
+    padding-top: 8px;
+
+    a {
+        display: inline-block;
+    }
+}
+
+.header__nav {
+    text-align: right;
+    
+    nav {
+        display: inline-block;
+        margin-right: 60px;
+
+        ul {
+
+            li {
+                list-style: none;
+                display: inline-block;
+                margin-right: 55px;
+
+                &.active {
+                    
+                    a {
+                        color: $white-color;
+                    }
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+                
+                a {
+                    display: block;
+                    font-size: 16px;
+                    color: #9a9fad;
+                    font-family: $second-font;
+                    padding: 10px 5px;
+                    @include transition(all, .3s);
+
+                    &:hover {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .header__btn {
+        display: inline-block;
+
+        a {
+            display: inline-block;
+            font-size: 16px;
+            color: $white-color;
+            border: 1px solid $white-color;
+            padding: 10px 32px;
+            border-radius: 50px;
+        }
+    }
+}
