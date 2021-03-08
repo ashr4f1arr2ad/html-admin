@@ -1,6 +1,6 @@
 /*  ---------------------------------------------------
-    Template Name: Dreams
-    Description: Dreams wedding template
+    Template Name: AdminLTE
+    Description: AdminLTE template
     Author: Colorib
     Author URI: https://colorlib.com/
     Version: 1.0
@@ -27,6 +27,17 @@
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
+    //Canvas Menu
+    $(".canvas__open").on('click', function () {
+        $(".offcanvas-menu-wrapper").addClass("active");
+        $(".offcanvas-menu-overlay").addClass("active");
+    });
+
+    $(".offcanvas-menu-overlay").on('click', function () {
+        $(".offcanvas-menu-wrapper").removeClass("active");
+        $(".offcanvas-menu-overlay").removeClass("active");
+    });
+
     /*------------------
 		Testimonial Slider
 	--------------------*/
@@ -40,7 +51,18 @@
         margin: 30,
         smartSpeed: 1200,
         autoHeight: false,
-        autoplay: true
+        autoplay: true,
+        responsive: {
+            340: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            }
+        }
     });
 
 

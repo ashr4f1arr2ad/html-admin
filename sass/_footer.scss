@@ -30,6 +30,10 @@
 
     &.footer__links {
         padding-left: 35px;
+
+        @include respond (tab-port) {
+            padding-left: 0;
+        }
     }
 
     h5 {
@@ -110,11 +114,20 @@
         font-family: $second-font;
         font-weight: 300;
         margin-bottom: 0;
+
+        @include respond (tab-port) {
+            text-align: center;
+            margin-bottom: 15px;
+        }
     }
 }
 
 .footer__copyright__links {
     text-align: right;
+
+    @include respond (tab-port) {
+        text-align: center;
+    }
 
     a {
         display: inline-block;

@@ -47,7 +47,12 @@ $breakpoint argument choices:
     //for navbar control only 
     
     @if $breakpoint == tab-991 {
-      @media only screen and (max-width: 61.93em){ @content };    //991px
+        @media only screen and (max-width: 61.93em){ @content };    //991px
+    }
+
+    //different breakpoint
+    @if $breakpoint == con1 {
+        @media only screen and (min-width: 103.125em){ @content };    //1650px
     }
   }
 

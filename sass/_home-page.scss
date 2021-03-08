@@ -5,7 +5,14 @@
     padding-top: 180px;
 
     .container {
-        max-width: 1600px;
+
+        @include respond (con1) {
+            max-width: 1600px;
+        }
+
+        @include respond (con2) {
+            max-width: 1270px;
+        }
     }
 }
 
@@ -14,10 +21,23 @@
     max-width: 1010px;
     margin: 0 auto;
 
+    @include respond (tab-land) {
+        max-width: initial;
+        margin: 0;
+    }
+
     h2 {
         color: $white-color;
         font-weight: 800;
         margin-bottom: 20px;
+
+        @include respond (phone-medium) {
+            font-size: 22px;
+        }
+
+        @include respond (tab-middle) {
+            font-size: 22px;
+        }
     }
 
     p {
@@ -26,6 +46,14 @@
         font-weight: 500;
         margin-bottom: 40px;
         padding: 0 120px;
+
+        @include respond (phone-medium) {
+            padding: 0;
+        }
+
+        @include respond (tab-middle) {
+            padding: 0;
+        }
     }
 
     .hero__btns {
@@ -40,6 +68,15 @@
             border-radius: 10px;
             margin-right: 14px;
             @include transition(all, .3s);
+
+            @include respond (phone) {
+                margin-bottom: 18px;
+                margin-right: 10px;
+            }
+
+            @include respond (tab-port) {
+                margin-right: 10px;
+            }
 
             &:hover {
                 background: #005fd5;
@@ -91,7 +128,7 @@
 
     h5 {
         margin-bottom: 20px;
-        
+
         a {
             color: #1f3e64;
             font-weight: 800;
@@ -109,6 +146,12 @@
 .demo__item__price {
     width: 50%;
     float: left;
+
+    @include respond (tab-land) {
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
 
     h4 {
         color: #1f3e64;
@@ -130,6 +173,10 @@
     padding-top: 22px;
     overflow: hidden;
     padding-bottom: 15px;
+
+    @include respond (tab-land) {
+        overflow: visible;
+    }
 }
 
 .demo__item__btn {
@@ -137,6 +184,12 @@
     float: left;
     text-align: right;
     padding-top: 6px;
+
+    @include respond (tab-land) {
+        width: 100%;
+        float: none;
+        text-align: left;
+    }
 
     .preview_btn {
         display: inline-block;
@@ -249,8 +302,15 @@
 }
 
 .users__pic {
-    margin-left: -70px;
     margin-bottom: 30px;
+
+    @include respond (con2) {
+        margin-left: -70px;
+    }
+
+    @include respond (tab-land) {
+        margin-left: 0;
+    }
 
     img {
         min-width: 100%;
@@ -260,6 +320,10 @@
 .users__text {
     margin-bottom: 30px;
     padding-left: 65px;
+
+    @include respond (tab-port) {
+        padding-left: 0;
+    }
 }
 
 .users__text__title {
@@ -322,6 +386,10 @@
     padding: 52px 60px 38px 40px;
     border-radius: 10px;
     border: 1px solid #f0f0f0;
+
+    @include respond (tab-land) {
+        padding: 35px 25px 30px 25px;
+    }
 
     p {
         color: #57667e;
@@ -411,10 +479,10 @@
 .works__content {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .works__item {
-    display: block;
     width: 20%;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -422,6 +490,18 @@
     @include transition(all, .3s);
     padding: 23px 30px;
     margin-bottom: 30px;
+
+    @include respond (phone) {
+        width: 25%;
+    }
+
+    @include respond (phone-small) {
+        width: 50%;
+    }
+
+    @include respond (tab-middle) {
+        width: 50%;
+    }
 
     &:hover {
         background: #f9fafb;
@@ -439,6 +519,14 @@
 .support-content {
     border-radius: 10px;
     padding: 90px 115px 38px;
+
+    @include respond (tab-land) {
+        padding: 90px 50px 38px;
+    }
+
+    @include respond (phone-small) {
+        padding: 65px 30px 38px;
+    }
 }
 
 .support__left {
@@ -497,7 +585,3 @@
     padding: 20px;
     margin-bottom: 25px;
 }
-
-/*---------------------
-  Hero
------------------------*/
